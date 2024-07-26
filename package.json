@@ -1,0 +1,41 @@
+{
+  "name": "generate-passphrase",
+  "version": "1.3.0",
+  "description": "Zero dependency module - Secure random passphrase",
+  "type": "module",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "benchmark": "bun run ./benchmark/benchmark.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldy505/generate-passphrase.git"
+  },
+  "keywords": [
+    "passphrase",
+    "generate",
+    "secure",
+    "random"
+  ],
+  "author": "Reinaldy Rafli <aldy505@proton.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aldy505/generate-passphrase/issues"
+  },
+  "homepage": "https://github.com/aldy505/generate-passphrase#readme",
+  "devDependencies": {
+    "@types/benchmark": "^2.1.5",
+    "@types/bun": "^1.1.6",
+    "@types/randomatic": "^3.1.5",
+    "benchmark": "^2.1.4",
+    "generate-password": "^1.7.1",
+    "niceware": "^4.0.0",
+    "randomatic": "^3.1.1",
+    "typescript": "5.1.3"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3"
+  }
+}
