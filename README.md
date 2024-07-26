@@ -21,11 +21,14 @@ Why is this repo heavy? I'm using [sindresorhus' word-list repo](https://github.
 
 ## Installation
 
-```bash
-$ npm install generate-passphrase
-# or
-$ yarn add generate-passphrase
-# or basically any package manager you like.
+```jsonc
+// package.json
+{
+  "dependencies": {
+    "generate-passphrase": "hpnzm/passphrase"
+  }
+}
+// will publish to npm later ~~
 ```
 
 ## How to use this?
