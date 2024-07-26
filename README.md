@@ -9,7 +9,7 @@
 - 🔑 Cryptographically secure
 - 📕 Built-in Typescript typings
 - 🎊 Supports Node.js 10 and higher
-- 💻 Works on browser
+- 💻 ---> Works on browser <---
 
 The code is close to node [generate-password](https://github.com/brendanashworth/generate-password) repo. But this is for a passphrase, with English language.
 
