@@ -30,6 +30,12 @@ Why is this repo heavy? I'm using [sindresorhus' word-list repo](https://github.
 }
 // will publish to npm later ~~
 ```
+```js
+// next.config.js
+const nextConfig = {
+  transpilePackages: ["generate-passphrase"],
+};
+```
 
 ## How to use this?
 
